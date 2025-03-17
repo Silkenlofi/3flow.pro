@@ -4483,6 +4483,8 @@ body {
   }
 
   .hero-top-wrapper.min-vh.dark.work {
+    height: 352.131vw;
+    max-height: 352.131vw;
     padding-bottom: 14vw;
   }
 
@@ -5223,12 +5225,8 @@ body {
     padding-top: 8vw;
   }
 
-  .tab-pane._1st {
-    min-height: 494vw;
-  }
-
-  .tab-pane._2nd {
-    min-height: 390vw;
+  .tab-pane._1st, .tab-pane._2nd {
+    min-height: auto;
   }
 
   .price-title {
