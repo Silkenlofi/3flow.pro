@@ -2404,6 +2404,8 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-top: 2vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
   display: flex;
 }
 
@@ -2470,6 +2472,8 @@ body {
 
 .slide-2 {
   height: auto;
+  padding-left: 3vw;
+  padding-right: 3vw;
 }
 
 .slider-button-wrapper {
@@ -4850,7 +4854,8 @@ body {
   }
 
   .image-cover-2 {
-    aspect-ratio: 2.39;
+    box-sizing: border-box;
+    aspect-ratio: 16 / 9;
     border-radius: 2vw;
   }
 
