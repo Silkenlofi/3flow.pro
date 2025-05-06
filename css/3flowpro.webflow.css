@@ -1,3 +1,35 @@
+@font-face {
+  font-family: Tripsans;
+  src: url('../fonts/TripSans-Bold.ttf') format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Tripsans;
+  src: url('../fonts/TripSans-Medium.ttf') format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Tripsans;
+  src: url('../fonts/TripSans-Regular.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Revive 80 Wide E 4 Z 2 G";
+  src: url('../fonts/Revive80Wide-E4Z2g.otf') format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --yel: #ffdf00;
   --black: #1f1f1f;
@@ -3179,11 +3211,16 @@ body {
   align-items: center;
 }
 
+.flex-horizontal.start-top.diff {
+  border-bottom-style: none;
+}
+
 .card-pricing {
   border: 1px none var(--black);
   background-color: #fff;
   border-radius: 1.4vw;
   flex-direction: column;
+  height: 100%;
   padding: 2vw;
   display: flex;
 }
@@ -3354,7 +3391,11 @@ body {
 }
 
 .padding-top-80px {
-  padding-top: 80px;
+  padding-top: 4vw;
+}
+
+.padding-top-80px.hide {
+  display: none;
 }
 
 .text-color-neutral-400 {
@@ -3387,6 +3428,10 @@ body {
   display: flex;
 }
 
+.mg-top-18px.mg-bottom-32px.include.diff {
+  padding-top: 0;
+}
+
 .grid-three-columns {
   grid-column-gap: 30px;
   grid-row-gap: 30px;
@@ -3399,7 +3444,7 @@ body {
   grid-row-gap: 2vw;
   color: var(--black);
   grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   width: 100%;
   min-height: auto;
@@ -5101,6 +5146,11 @@ body {
 
   .flex-horizontal.start-top._2nd {
     padding-top: 8vw;
+  }
+
+  .flex-horizontal.start-top.diff {
+    grid-column-gap: 0vw;
+    grid-row-gap: 0vw;
   }
 
   .card-pricing {
