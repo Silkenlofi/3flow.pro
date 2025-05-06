@@ -1806,6 +1806,10 @@ body {
   margin-top: 2vw;
 }
 
+.button-block-33.auto {
+  margin-top: auto;
+}
+
 .button-wrap-33 {
   grid-column-gap: 1vw;
   grid-row-gap: 1vw;
