@@ -3216,6 +3216,8 @@ body {
 }
 
 .flex-horizontal.start-top.diff {
+  grid-column-gap: 0vw;
+  grid-row-gap: 0vw;
   border-bottom-style: none;
 }
 
